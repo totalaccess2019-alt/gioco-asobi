@@ -79,3 +79,14 @@ p{margin-bottom:1.25rem}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.site-header nav,.skip-link,.contents,.back-top{display:none}.site-header,.site-footer{background:#fff}.policy{max-width:none;padding:1.5rem 0}.policy>section h2{break-after:avoid}.policy p{orphans:3;widows:3}.site-footer{padding:1rem 0}body{font-size:10pt;background:#fff;color:#000}a{color:#000}}
 
+
+/* Language navigation */
+.language-bar{max-width:72rem;margin:0 auto;padding:.65rem clamp(1.25rem,4vw,3rem) 0}
+.language-switch ul{justify-content:flex-end;gap:.5rem}
+.site-header .language-switch a{display:flex;align-items:center;justify-content:center;min-height:44px;min-width:5.5rem;max-width:100%;padding:.35rem .85rem;border:1px solid var(--green);border-radius:.4rem;color:var(--green);font-size:1rem;line-height:1.5;text-decoration:none}
+.site-header .language-switch a[aria-current=page]{color:var(--white);background:var(--green);text-decoration:none}
+.site-header .language-switch a:hover{text-decoration:underline;text-underline-offset:.2em}
+.original-title{font-size:.9rem;color:var(--muted)}
+.button{flex-wrap:wrap;max-width:100%;row-gap:.75rem}
+html[lang=en] .metadata dt{min-width:7.5rem}
+@media print{.language-bar{display:none}}

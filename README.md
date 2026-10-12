@@ -1,22 +1,22 @@
 # Gioco Asobi
 
-Gioco Asobi のアプリ案内、プライバシーポリシー、お問い合わせ窓口の静的サイトです。
+Gioco Asobi のアプリ案内、プライバシーポリシー、お問い合わせ窓口を日本語と英語で提供する静的サイトです。
 
-## ページ
+Static app information, privacy policies, and support pages for Gioco Asobi, in Japanese and English.
 
-- `index.html` — アプリ案内
-- `zoo-privacy.html` — 気まぐれ園長の動物園脳トレのプライバシーポリシー
-- `pandoku-privacy.html` — Pandoku iOS版のプライバシーポリシー
-- `contact.html` — お問い合わせ
-- `styles.css` — 共通スタイル
+| Page | 日本語 | English |
+| --- | --- | --- |
+| App information | `index.html` | `index-en.html` |
+| Zoo privacy policy | `zoo-privacy.html` | `zoo-privacy-en.html` |
+| Pandoku iOS privacy policy | `pandoku-privacy.html` | `pandoku-privacy-en.html` |
+| Contact & support | `contact.html` | `contact-en.html` |
 
 HTML と CSS のみで動作します。外部フォント、CDN、JavaScript、アクセス解析、広告、問い合わせフォームは使用しません。
 
-問い合わせ先：giocoasobi@gmail.com
+The site uses only HTML and CSS, without external fonts, CDNs, JavaScript, analytics, advertisements, or contact forms.
 
-## 配信
+Contact: giocoasobi@gmail.com
 
-GitHub Pages でリポジトリの `main` ブランチのルートを公開します。`.nojekyll` により静的ファイルをそのまま配信します。
+## Hosting
 
-GitHub Pages が行う訪問者情報の取り扱いは、各ページのフッターをご確認ください。
-
+GitHub Pages publishes the root of the `main` branch. `.nojekyll` serves the static files directly. Each page’s footer explains GitHub Pages’ handling of visitor information.
